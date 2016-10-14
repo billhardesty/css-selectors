@@ -1,0 +1,74 @@
+html {
+	background: #456644;
+	margin: 0;
+}
+
+/*limited reset*/
+h1, h2, h3, h4, h5, h6, p, blockquote, div {
+	margin: 0;
+	padding: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	width: 80%;
+	margin: 0 auto 0;
+	padding: 2.5%;
+	background: white;
+	line-height: 1.8;
+}
+
+h1 {
+	font: 1.6em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+	color: #456644;
+}
+h2 {
+	font: 3.2em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .2em;
+	color: #97552C;
+
+}
+h3, h4, h5, h6 {
+	font: 1em Verdana, Geneva, sans-serif;
+	color: #97552C;
+}
+
+p {
+	font: 1em Verdana, Geneva, sans-serif;
+	margin-bottom: 1em;
+}
+
+a {
+	color: #926A34;
+}
+a:hover {
+	color: #E2A643;
+}
+
+pre {
+	font-size: 1.4em;
+	color: white;
+	padding: .5em 1em;
+	border-left: 1em solid #A68048;
+	background: #666;
+
+}
+pre.wrong {
+	border-left-color: red;
+}
+pre.correct {
+	border-left-color: green;
+}
+pre span {
+	color: #F9F;
+}
+pre span.label {
+	color: #FC0;
+}
+
