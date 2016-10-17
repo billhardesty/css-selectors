@@ -81,4 +81,21 @@ table {
 caption {
 	font-size: 1.2em;
 	font-weight: bold;
+	color: rgb(107, 107, 132);
+	text-align: left;
+}
+tr:nth-child(odd) {
+	background: #F3ECDD;
+}
+td {
+	border: 1px solid black;
+	padding: .5em;
+}
+th {
+	border: 1px solid black;
+	border-bottom: 3px solid black;
+	height: 3em;
+	/* vertical-align: center; */
+	background: #999;
+	color: white;
 }
